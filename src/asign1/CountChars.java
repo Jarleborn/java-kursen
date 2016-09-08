@@ -10,8 +10,8 @@ import java.lang.String;
  */
 public class CountChars {
 
-    public static void main(String path) throws IOException {
-         //String path = "C:/Users/Iamha/Programmering/java_courses/src/asign1/text.txt";
+    public static void main(String[] args) throws IOException {
+         String path = "C:/Users/Iamha/Programmering/java_courses/src/asign1/text.txt";
         FileReader fReader = new FileReader(path);
         BufferedReader bReader = new BufferedReader(fReader);
 
