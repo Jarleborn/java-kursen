@@ -11,7 +11,7 @@ import java.lang.String;
 public class CountChars {
 
     public static void main(String[] args) throws IOException {
-         String path = "C:/Users/Iamha/Programmering/java_courses/src/asign1/text.txt";
+         String path = args[0];
         FileReader fReader = new FileReader(path);
         BufferedReader bReader = new BufferedReader(fReader);
 

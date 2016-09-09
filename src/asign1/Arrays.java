@@ -28,13 +28,13 @@ public class Arrays {
         for (int i = 0; i < arr.length ; i++) {
             theString += arr[i];
         }
-        System.out.print(theString);
+
         return theString;
     }
     public static int[] addN(int[] arr, int n){
         for (int i = 0; i < arr.length ; i++) {
             arr[i] += n;
-            System.out.println(arr[i]);
+
         }
         return arr;
     }
@@ -91,22 +91,36 @@ public class Arrays {
         for (int i = 0; i < arr.length ; i++) {
             if(arr[i] == sub[0]){
                 for (int j = 0; j < sub.length; j++) {
+                    if(i + j >= arr.length){
+                        break;
+                    }
                     if(arr[i + j] == sub[j]){
                         count++;
+                        if(count == sub.length){
+                            return true;
+                        }
+
                     }
                 }
             }
         }
-        if(count == sub.length){
-            return true;
-        }
+
         return false;
     }
 
-    public static int[] absDif(int[] arr1, int[] arr2){
-        for (int i = 0; i < arr1.length; i++) {
 
+    public static int[] absDif(int[] arr1,int[] arr2){
+        int[] diffArray = new int[arr1.length];
+        if(arr1.length == arr2.length){
+            for(int i = 0; i < arr1.length; i++){
+                diffArray[i] = Math.abs(arr1[i] - arr2[i]);
+            }
+            return diffArray;
         }
-        return new int[4];
+        else{
+            System.out.print("The two arrays must be the same size!");
+            return null;
+        }
     }
+
 }
