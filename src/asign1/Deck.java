@@ -34,7 +34,6 @@ public class Deck {
 
     public Card handOutNextCard(){
         Card nextCard  = deck.get(0);
-        System.out.println(nextCard);
         deck.remove(0);
         return nextCard;
     }
@@ -42,6 +41,8 @@ public class Deck {
     public int deckSize(){
         return deck.size();
     }
+
+
 
 
 }
