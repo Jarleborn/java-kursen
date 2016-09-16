@@ -8,7 +8,7 @@ public class Play123Main {
         int wining = 0;
         int loos = 0;
         double chance;
-        for (int i = 0; i <= 999; i++) {
+        for (int i = 0; i <= 9999; i++) {
             if(Play123()){
                 wining++;
             }

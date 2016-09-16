@@ -27,7 +27,7 @@ public class Deck {
             Collections.shuffle(this.deck, new Random());
         }
         else {
-            System.out.println("Shuffle just posible when you have 52 cards in the deck");
+            System.out.println("Shuffle just possible when you have 52 cards in the deck");
         }
 
     }

@@ -4,16 +4,7 @@ package asign1;
  * Created by Iamha on 2016-09-05.
  */
 public class Arrays {
-    public static void main(String[] args) {
 
-        int[] test = {8,7,3,4,5};
-        int[] sub1 = {3,4,5};
-        int[] sub2 = {9,9,9};
-        int[] sub3 = {8,6,3};
-        System.out.println(hasSubsequence(test, sub1));
-        System.out.println(hasSubsequence(test, sub2));
-        System.out.println(hasSubsequence(test, sub3));
-    }
 
     public static int sum(int[] arr){
         int summer = 0;

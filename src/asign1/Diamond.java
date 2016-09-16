@@ -49,10 +49,10 @@ public class Diamond {
                     }
                 }
             }else {
-                System.out.println("No no no thats not an odd number!!");
+                System.out.println("No no no that's not an odd number!!");
             }
         } catch (NumberFormatException e) {
-            System.out.print("EY! Thats not eaven a number");
+            System.out.print("EY! That's not eaven a number");
         }
     }
 }
