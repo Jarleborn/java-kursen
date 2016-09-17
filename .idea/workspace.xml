@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="793c2007-686a-4954-8383-1ab12c141001" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/ArrayIntList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/CollectionMain.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/java_courses/QueueInterface.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/asign1/Arrays.class" afterPath="$PROJECT_DIR$/out/production/java_courses/asign1/Arrays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/asign1/CountChars.class" afterPath="$PROJECT_DIR$/out/production/java_courses/asign1/CountChars.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/asign1/CountDigits.class" afterPath="$PROJECT_DIR$/out/production/java_courses/asign1/CountDigits.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/asign1/Deck.class" afterPath="$PROJECT_DIR$/out/production/java_courses/asign1/Deck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/asign1/Diamond.class" afterPath="$PROJECT_DIR$/out/production/java_courses/asign1/Diamond.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/asign1/HighLow.class" afterPath="$PROJECT_DIR$/out/production/java_courses/asign1/HighLow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/asign1/Play123Main.class" afterPath="$PROJECT_DIR$/out/production/java_courses/asign1/Play123Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/ArrayIntStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/CollectionMainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inheritance/CollectionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/Inheritance/ArrayIntList.class" afterPath="$PROJECT_DIR$/out/production/java_courses/Inheritance/ArrayIntList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_courses/Inheritance/CollectionMain.class" afterPath="$PROJECT_DIR$/out/production/java_courses/Inheritance/CollectionMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/Arrays.java" afterPath="$PROJECT_DIR$/src/asign1/Arrays.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/CountChars.java" afterPath="$PROJECT_DIR$/src/asign1/CountChars.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/CountDigits.java" afterPath="$PROJECT_DIR$/src/asign1/CountDigits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/Deck.java" afterPath="$PROJECT_DIR$/src/asign1/Deck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/Diamond.java" afterPath="$PROJECT_DIR$/src/asign1/Diamond.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/HighLow.java" afterPath="$PROJECT_DIR$/src/asign1/HighLow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/Play123Main.java" afterPath="$PROJECT_DIR$/src/asign1/Play123Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/Queue/Queue.java" afterPath="$PROJECT_DIR$/src/asign1/Queue/Queue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/asign1/Queue/QueueMain.java" afterPath="$PROJECT_DIR$/src/asign1/Queue/QueueMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_courses.iml" afterPath="$PROJECT_DIR$/java_courses.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inheritance/ArrayIntList.java" afterPath="$PROJECT_DIR$/src/Inheritance/ArrayIntList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inheritance/CollectionMain.java" afterPath="$PROJECT_DIR$/src/Inheritance/CollectionMain.java" />
     </list>
     <ignored path="java_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +28,26 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="ArrayIntStack.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Inheritance/ArrayIntStack.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="738">
+                    <caret line="41" column="5" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="java_courses" />
@@ -46,9 +57,31 @@
       <file leaf-file-name="AbstractIntCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inheritance/AbstractIntCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="376">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionMainTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionMainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1690">
+              <caret line="148" column="71" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,29 +89,22 @@
       <file leaf-file-name="IntList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inheritance/IntList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="18" column="55" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="55" />
+            <state relative-caret-position="306">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayIntList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayIntList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inheritance/ArrayIntList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectionMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="60">
+              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+              <folding>
+                <element signature="e#1492#1493#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +116,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -128,8 +155,11 @@
         <option value="$PROJECT_DIR$/src/Inheritance/IntStack.java" />
         <option value="$PROJECT_DIR$/src/Inheritance/IntList.java" />
         <option value="$PROJECT_DIR$/src/Inheritance/AbstractIntCollection.java" />
-        <option value="$PROJECT_DIR$/src/Inheritance/CollectionMain.java" />
+        <option value="$PROJECT_DIR$/src/Inheritance/ArrayIntStack.java" />
+        <option value="$PROJECT_DIR$/src/Inheritance/CollectionMainTest.groovy" />
         <option value="$PROJECT_DIR$/src/Inheritance/ArrayIntList.java" />
+        <option value="$PROJECT_DIR$/src/Inheritance/CollectionMainTest.java" />
+        <option value="$PROJECT_DIR$/src/Inheritance/CollectionMain.java" />
       </list>
     </option>
   </component>
@@ -169,7 +199,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,7 +256,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,49 +264,22 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
-  <component name="RunManager" selected="Application.CollectionMain">
-    <configuration default="false" name="HighLow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="asign1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="asign1.HighLow" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_courses" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="asign1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="asign1.CountDigits" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_courses" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Inheritance" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CollectionMainTest">
     <configuration default="false" name="CountChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -333,6 +338,58 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="java_courses" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectionMainTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java_courses" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Inheritance" />
+      <option name="MAIN_CLASS_NAME" value="Inheritance.CollectionMainTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectionMainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java_courses" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Inheritance" />
+      <option name="MAIN_CLASS_NAME" value="Inheritance.CollectionMainTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -580,19 +637,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.HighLow" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CountDigits" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CountChars" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayIntList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CollectionMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CountChars" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayIntList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CollectionMain" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionMainTest.testAdd" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectionMainTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CollectionMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayIntList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CountChars" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CountDigits" />
-        <item index="4" class="java.lang.String" itemvalue="Application.HighLow" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectionMainTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionMainTest.testAdd" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CollectionMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayIntList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CountChars" />
       </list>
     </recent_temporary>
   </component>
@@ -620,6 +677,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 02m 52s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 05m 19s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 05m 47s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 11m 28s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 12m 06s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 17m 16s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 18m 46s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 19m 03s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 20m 08s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionMainTest - 2016.09.17 at 19h 20m 24s.xml">
+      <configuration name="CollectionMainTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="37780000" />
   </component>
@@ -634,7 +723,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3037433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -643,7 +732,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3983051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39786097" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -667,7 +756,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Inheritance/CollectionMain.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Inheritance/CollectionMainTest.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -676,39 +779,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/asign1/CountChars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/asign1/CountJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/asign1/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/asign1/CountDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/asign1/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,10 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding>
-            <element signature="e#1780#1781#0" expanded="false" />
-            <element signature="e#1838#1839#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,40 +1053,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inheritance/IntStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inheritance/AbstractIntCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inheritance/IntList.java">
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionMainTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="55" />
+          <caret line="11" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inheritance/ArrayIntList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/IntList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/AbstractIntCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/ArrayIntStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionMainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1690">
+          <caret line="148" column="71" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/CollectionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1028,9 +1131,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>java_courses</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

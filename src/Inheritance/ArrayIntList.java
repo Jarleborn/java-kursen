@@ -9,49 +9,73 @@ import java.lang.reflect.Array;
 public class ArrayIntList extends AbstractIntCollection implements IntList {
 
     public void add(int n){
-        if(values.length == size){
+        if(values.length == size()){
             resize();
         }
-        values[size] = n;
+        values[size()] = n;
+        size++;
     }
     public void addAt(int n, int index) throws IndexOutOfBoundsException{
-        if(checkIndex(index, size())) {
-            if(size() ==values.length){
-                resize();
-            }
 
-            int place = values[index];
-            values[index] = n;
-            for (int i = index; i < size() ; i++) {
+        try {
+            if(checkIndex(index, size())) {
+                if(size() == values.length){
+                    resize();
+                }
 
+                int place = values[index];
+                values[index] = n;
+                for (int i = index; i < size() ; i++) {
+                    int tmp = values[i + 1];
+                    values[i + 1 ] = place;
+                    place = tmp;
+                }
+                size++;
             }
-        }
-        else {
+        } catch (Exception e) {
             throw new IndexOutOfBoundsException();
         }
+
+
     }
     public void remove(int index) throws IndexOutOfBoundsException{
         try {
-            for (int i = 0; i < values.length; i++) {
-
+            for (int i = index; i < size(); i++) {
+                values[i] = values[i +1];
             }
+            size--;
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public int get(int index) throws IndexOutOfBoundsException{
-        return 0;
+
+        try {
+            return values[index];
+        } catch (Exception e) {
+            throw new IndexOutOfBoundsException();
+        }
+
+
     }
 
     public int size(){
-        return 0;
+        return size;
     }
     public boolean isEmpty(){
-        return true;
+        if(size == 0){
+            return true;
+        }
+        return false;
     }
     public int indexOf(int n){
-        return 0;
+        for (int i = 0; i < size() ; i++) {
+            if(values[i] == n){
+                return i;
+            }
+        }
+        return -1;
     }
 
     @Override
