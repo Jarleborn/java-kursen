@@ -76,9 +76,10 @@ public class FerryProg implements Ferry {
 
     @Override
     public boolean hasSpaceFor(Vehicle v) {
-        int tmp = maxSpaceCapacite;
-        int roomLeft =  tmp - (int)usedSpace;
-        if(roomLeft > v.getSpace()){
+        if(v.getPassengers().size() > v.getMaxPassengers()) {
+            return false;
+        }
+        else if(usedSpace + v.getSpace() <= maxSpaceCapacite && !_venichles.contains(v)) {
             return true;
         }
         return false;
