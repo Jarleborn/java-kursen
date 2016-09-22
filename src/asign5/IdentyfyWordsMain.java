@@ -9,6 +9,8 @@ import java.util.stream.Collector;
  */
 public class IdentyfyWordsMain {
 
+
+    //I decided to keep the s couse it's still a letter
     public static void main(String[] args){
         try {
             String directory = "/home/hampus/Programmering/java_courses/src/asign5/HistoryOfProgramming.txt";
@@ -35,7 +37,6 @@ public class IdentyfyWordsMain {
                     }
                     //System.out.println(stringToSave);
                     wholeString += stringToSave;
-                    wholeString += "\n";
                     stringToSave ="";
 
                 }
