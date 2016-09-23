@@ -39,12 +39,6 @@ public class WordCount1Main {
             System.out.println(_hashSet.size());
 
 
-                Iterator it = _treeSet.iterator();
-
-            while(it.hasNext()){
-                System.out.println(it.next());
-            }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
