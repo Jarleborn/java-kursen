@@ -10,10 +10,15 @@ public class Word implements Comparable<Word> {
     public String toString() { return word; }
     /* Override Object methods */
     @Override
-    public int hashCode() { return word.hashCode(); }
+    public int hashCode() { return word.toLowerCase().hashCode(); }
     @Override
     public boolean equals(Object other) {
-        return word.toLowerCase().hashCode() == other.toString().toLowerCase().hashCode(); }
+        if(other instanceof Word){
+        return word.toLowerCase().equals(other.toString().toLowerCase()); }
+        else{
+            return false;
+        }
+    }
     /* Implement Comparable */
     public int compareTo(Word w) {
         return word.compareToIgnoreCase(w.toString());
