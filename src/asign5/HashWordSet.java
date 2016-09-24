@@ -13,23 +13,27 @@ public class HashWordSet implements WordSet {
 
     @Override
     public void add(Word word) {
-     int key = word.hashCode();
-        Node node = buckets[getBucketNum(word)];
+
+        int place = getBucketNum(word);
+        Node node = buckets[place];
+
+
         while(node != null){
-            if(node.getNode().equals(word)){
+
+            if(node.value.equals(word)){
                 return;
             }
             else {
-                node = node.getNext();
-            }
 
-            node = new Node(word);
-            node.setNext(buckets[getBucketNum(word)]);
-            buckets[getBucketNum(word)] = node;
-            _size++;
-            if(_size == buckets.length){
-                rehash();
+                node = node.next;
             }
+        }
+        node = new Node(word);
+        node.next = buckets[place];
+        buckets[place] = node;
+        _size++;
+        if(_size == buckets.length){
+            rehash();
         }
 
     }
@@ -49,8 +53,8 @@ public class HashWordSet implements WordSet {
         for (Node n : temp){
             if( n == null) continue;
             while(n != null){
-                add(n._object);
-                n = n.getNext();
+                add(n.value);
+                n = n.next;
             }
         }
     }
@@ -59,7 +63,7 @@ public class HashWordSet implements WordSet {
         int position = getBucketNum(word);
         Node node = buckets[position];
         while(node != null){
-            if(node._object.equals(word)){
+            if(node.value.equals(word)){
                 return true;
             }
         }
@@ -72,46 +76,58 @@ public class HashWordSet implements WordSet {
     }
 
     @Override
-    public Iterator iterator() {
-        Iterator iterator = new Iterator() {
-            @Override
-            public boolean hasNext() {
-                return false;
-            }
+    public Iterator iterator()  {
+        return new hashIterator();
+    }
 
-            @Override
-            public Object next() {
-                return null;
+    private class hashIterator implements Iterator<Word>{
+        private Node n;
+        private int buketIndex;
+
+        @Override
+        public boolean hasNext() {
+            if(n != null && n.next != null){
+                return true;
             }
-        };
-        return iterator;
+            for (int i = buketIndex + 1; i < buckets.length ; i++) {
+                if(buckets[i] != null){
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        @Override
+        public Word next() {
+            if(n != null && n.next != null){
+                n = n.next;
+            }
+            else{
+                do {
+                    buketIndex++;
+                    if(buketIndex > buckets.length){
+                        throw new IndexOutOfBoundsException();
+                    }
+                    n = buckets[buketIndex];
+                }while (n == null);
+
+            }
+            return n.value;
+        }
     }
 
 
     private class Node {
-        private Node _next = null;
-        private Word _object;
+        Word value;
+        Node next = null;
 
-        public Node(Word object){
-            _object = object;
+        public Node (Word word) {
+            value = word;
         }
 
-        public void setNode(Word object){
-            _object = object;
+        public String toString() {
+            return value.toString();
         }
-        public Object getNode(){
-            return _object;
-        }
-
-        public void setNext(Node node){
-            _next = node;
-        }
-
-        public Node getNext(){
-            return _next;
-        }
-
-
     }
 }
 

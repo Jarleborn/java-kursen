@@ -40,40 +40,69 @@ public class TreeWordSet implements WordSet {
 
     @Override
     public Iterator iterator() {
-        return null;
+        return new TreeIterator();
     }
 
     private class TreeIterator implements Iterator<Word>{
-        Node n = null;
+        private Node n = null;
 
         public TreeIterator(){
-            Node temp = n;
-            n = n.left;
-            n.paretn = temp;
-
+             n = _root;
+            while (n.left != null){
+                Node tmp = n;
+                n = n.left;
+                n.paretn = tmp;
+            }
         }
+
         @Override
         public boolean hasNext() {
-            return n == null;
+            return n != null;
         }
 
         @Override
         public Word next() {
             n.visited = true;
-            if(n.left != null){
-                Node theNode = n.
+            Node returning = n;
+            if(n.right != null){
+                n = n.right;
+                if(n.paretn == null){
+                    n.paretn = returning;
+                }
+                while (n.left != null ){
+                    Node tmp = n;
+                    n = n.left;
+                    n.paretn = tmp;
+                }
+            }
+            else{
+                while (n.visited){
+                    Node tmp = n;
+                    n.visited = false;
+                    if(n.paretn == null) {
+                        n = null;
+                        break;
+                    }
+                    n = tmp.paretn;
+                }
+
             }
 
-            if(node != null){
+            return returning.word;
 
-                Object theNode =  node.getNode();
-                node = node.getNext();
-                return theNode;
-            }
-            else {
-                throw new IndexOutOfBoundsException();
-            }
+
         }
+    }
+
+    @Override
+    public String toString() {
+        Iterator<Word> iterator = new TreeIterator();
+
+        String toPrint = "";
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
+        return "kuken";
     }
 
     private class Node {
