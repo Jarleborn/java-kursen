@@ -65,35 +65,27 @@ public class TreeWordSet implements WordSet {
 
             n.visited = true;
             Node returning = n;
-            //If right is assigned set n to that one
             if(n.right != null){
                 n = n.right;
-                //If parent is unset set the initial node as parent
+
                 if(n.paretn == null){
                     n.paretn = returning;
                 }
-                //While left is not null set save inital as parent and save left over the initaial
                 while (n.left != null ){
-
-                    Node tmp = n;
+                    n.paretn = n;
                     n = n.left;
-                    n.paretn = tmp;
                 }
             }
             else{
-                //If right is null
+
                 while (n.visited){
-                    //and initial node is visited
-                    //set it to nonvisitied
-                    Node tmp = n;
                     n.visited = false;
-                    //if parent is unset set initial as null and breake the loop
                     if(n.paretn == null) {
                         n = null;
                         break;
                     }
-                    //if parent is set save over the initial with the parent
-                    n = tmp.paretn;
+
+                    n = n.paretn;
                 }
 
             }
