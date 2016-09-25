@@ -13,23 +13,23 @@ public class HashWordSet implements WordSet {
 
     @Override
     public void add(Word word) {
-
+//Adding a new word as longe as its a new one
         int place = getBucketNum(word);
         Node node = buckets[place];
 
 
         while(node != null){
 
-            if(node.value.equals(word)){
+            if(node._value.equals(word)){
                 return;
             }
             else {
 
-                node = node.next;
+                node = node._next;
             }
         }
         node = new Node(word);
-        node.next = buckets[place];
+        node._next = buckets[place];
         buckets[place] = node;
         _size++;
         if(_size == buckets.length){
@@ -38,6 +38,8 @@ public class HashWordSet implements WordSet {
 
     }
     public int getBucketNum(Word w){
+
+        //gets the number of the bucket containing a spesific word
         int hashCode = w.hashCode();
         if(hashCode < 0){
             hashCode = -hashCode;
@@ -46,6 +48,7 @@ public class HashWordSet implements WordSet {
     }
 
     public void rehash(){
+        //Rehashing when it's out of space
         Node[] temp = buckets;
         buckets = new Node[2*temp.length];
         _size = 0;
@@ -53,17 +56,19 @@ public class HashWordSet implements WordSet {
         for (Node n : temp){
             if( n == null) continue;
             while(n != null){
-                add(n.value);
-                n = n.next;
+                add(n._value);
+                n = n._next;
             }
         }
     }
     @Override
     public boolean contains(Word word) {
+
+        //Checking if the Hashset contains a specific word;
         int position = getBucketNum(word);
         Node node = buckets[position];
         while(node != null){
-            if(node.value.equals(word)){
+            if(node._value.equals(word)){
                 return true;
             }
         }
@@ -86,7 +91,8 @@ public class HashWordSet implements WordSet {
 
         @Override
         public boolean hasNext() {
-            if(n != null && n.next != null){
+            //return trus if there is a another number next in line
+            if(n != null && n._next != null){
                 return true;
             }
             for (int i = buketIndex + 1; i < buckets.length ; i++) {
@@ -99,8 +105,9 @@ public class HashWordSet implements WordSet {
 
         @Override
         public Word next() {
-            if(n != null && n.next != null){
-                n = n.next;
+        //gets the next number
+            if(n != null && n._next != null){
+                n = n._next;
             }
             else{
                 do {
@@ -112,21 +119,21 @@ public class HashWordSet implements WordSet {
                 }while (n == null);
 
             }
-            return n.value;
+            return n._value;
         }
     }
 
 
     private class Node {
-        Word value;
-        Node next = null;
+        Word _value;
+        Node _next = null;
 
         public Node (Word word) {
-            value = word;
+            _value = word;
         }
 
         public String toString() {
-            return value.toString();
+            return _value.toString();
         }
     }
 }

@@ -12,6 +12,8 @@ public class IdentyfyWordsMain {
 
     //I decided to keep the s couse it's still a letter
     public static void main(String[] args){
+        //Choping up the text in the file to lines and then spling the lines in to words, and then saving just words in a new line,
+        // thats added to a string with all lines thats written to the file
         try {
             String directory = "/home/hampus/Programmering/java_courses/src/asign5/HistoryOfProgramming.txt";
             //String directory = args[0];
@@ -35,7 +37,7 @@ public class IdentyfyWordsMain {
                             stringToSave+= tmp;
                         }
                     }
-                    //System.out.println(stringToSave);
+
                     wholeString += stringToSave;
                     stringToSave ="";
 
@@ -45,7 +47,7 @@ public class IdentyfyWordsMain {
                 writeToFile(wholeString);
                 System.out.print("Sequence of words" + "\n"+ "=================" + "\n");
                 System.out.println(wholeString);
-                wholeString = "";
+
             }
 
         } catch (FileNotFoundException e) {
@@ -55,6 +57,7 @@ public class IdentyfyWordsMain {
 
 
     public static void writeToFile(String stringToSave){
+        //Writing to file
         try {
             Writer output = new BufferedWriter(new FileWriter("/home/hampus/Programmering/java_courses/src/asign5/text.txt", false));
             output.append(stringToSave);

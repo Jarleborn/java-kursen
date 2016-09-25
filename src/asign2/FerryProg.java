@@ -50,6 +50,9 @@ public class FerryProg implements Ferry {
             usedSpace += v.getSpace();
             _venichles.add(v);
         }
+        else {
+            System.err.println("The boat is full sorry");
+        }
 
     }
 
@@ -68,7 +71,7 @@ public class FerryProg implements Ferry {
     public void disembark() {
         _venichles.clear();
         _passengers.clear();
-        earnedMoney = 0;
+        
         usedSpace = 0;
 
 

@@ -5,16 +5,18 @@ package asign2;
  */
 public class FerryMain {
 
+
+    //The Bikes is rounded down, so they fit eaven if there is 200 pasangers, i think that theres allways space for some bikes, they don't take up that much space
         public static void main(String[] args) {
 
             FerryProg ferry = new FerryProg();
 
-            // Testing to fill ferry with 10 full busses.
+            // Testing to embark the ferry with 10 full busses wich should fill the boat.
             for(int i = 0; i < 10; i++) {
                 ferry.embark(new Buss(20));
             }
             System.out.println(ferry.toString());
-            System.out.println("Disembarking...\n\n");
+            System.out.println("Emptying the ferry!\n\n");
             ferry.disembark();
 
 
@@ -23,7 +25,7 @@ public class FerryMain {
                 ferry.embark(new Bicycle());
             }
             System.out.println(ferry.toString());
-            System.out.println("Disembarking...\n\n");
+            System.out.println("Emptying the ferry!\n\n");
             ferry.disembark();
 
             //Testing to add 39 cars with 2 passengers, 1 bicycle and then another car. The last car should not be able to embark.
@@ -34,7 +36,7 @@ public class FerryMain {
             ferry.embark(new Car(2));
 
             System.out.println(ferry.toString());
-            System.out.println("Disembarking...\n\n");
+            System.out.println("Emptying the ferry!\n\n");
             ferry.disembark();
 
             // Testing to add 200 passengers.
@@ -43,7 +45,7 @@ public class FerryMain {
             }
 
             System.out.println(ferry.toString());
-            System.out.println("Disembarking...\n\n");
+            System.out.println("Emptying the ferry!\n\n");
             ferry.disembark();
 
             // Trying to add 200 passengers and then 1 bicycle. Bicycle should not be able to embark since the ferry is full with passengers.
@@ -54,7 +56,7 @@ public class FerryMain {
             ferry.embark(new Bicycle());
 
             System.out.println(ferry.toString());
-            System.out.println("Disembarking...\n\n");
+            System.out.println("Emptying the ferry!\n\n");
             ferry.disembark();
 
 
