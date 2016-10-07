@@ -9,15 +9,17 @@ import java.util.Set;
 /**
  * Created by hampus on 2016-09-30.
  */
-public class MyNode<E> extends Node {
+public class MyNode<E> extends Node<E> {
 
-    private Set<Node<E>> preds = new HashSet<>();
-    private Set<Node<E>> succs = new HashSet<>();
+    private Set<Node<E>> preds = new HashSet<Node<E>>();
+    private Set<Node<E>> succs = new HashSet<Node<E>>();
 
-    protected MyNode(E item){super(item);}
+    protected MyNode(E item){
+        super(item);
+    }
 
     @Override
-    public boolean hasSucc(Node node) {
+    public boolean hasSucc(Node<E> node) {
      return succs.contains(node);
     }
 
@@ -32,7 +34,7 @@ public class MyNode<E> extends Node {
     }
 
     @Override
-    public boolean hasPred(Node node) {
+    public boolean hasPred(Node<E> node) {
         return preds.contains(node);
     }
 
@@ -48,22 +50,22 @@ public class MyNode<E> extends Node {
     }
 
     @Override
-    protected void addSucc(Node succ) {
+    protected void addSucc(Node<E> succ) {
         succs.add(succ);
     }
 
     @Override
-    protected void removeSucc(Node succ) {
+    protected void removeSucc(Node<E> succ) {
         succs.remove(succ);
     }
 
     @Override
-    protected void addPred(Node pred) {
+    protected void addPred(Node<E> pred) {
         preds.add(pred);
     }
 
     @Override
-    protected void removePred(Node pred) {
+    protected void removePred(Node<E> pred) {
         preds.remove(pred);
     }
 

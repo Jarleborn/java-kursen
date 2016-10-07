@@ -25,14 +25,14 @@ public class MyGraph<E> implements DirectedGraph<E>{
     public MyNode<E> addNodeFor(E item) {
         //Fell exception BRE
         if(item == null){ throw new IndexOutOfBoundsException();}
-        MyNode<E> node = null;
+
         if(!_graph.containsKey(item)){
-           node = new MyNode<E>(item);
+            MyNode<E> node = new MyNode<E>(item);
             _heads.add(node);
             _tails.add(node);
             _graph.put(item, node);
         }
-        return node;
+        return _graph.get(item);
     }
 
     @Override
@@ -45,26 +45,23 @@ public class MyGraph<E> implements DirectedGraph<E>{
 
     @Override
     public boolean addEdgeFor(E from, E to) {
-
-        if(from != null || to != null){
-            MyNode From = (MyNode<E>) addNodeFor(from);
-            MyNode To = (MyNode<E>) addNodeFor(to);
-
-            if(From.hasSucc(To)){
-                return false;
-            }else {
-                From.addSucc(To);
-                To.addPred(From);
-
-                _tails.remove(From);
-                _heads.remove(To);
-
-            }
-        }else {
-            throw new IndexOutOfBoundsException();
+        if(from == null || to == null){
+          throw  new  RuntimeException();
         }
 
-        return false;
+        MyNode<E> source = (MyNode<E>) addNodeFor(from);
+        MyNode<E> target = (MyNode<E>) addNodeFor(to);
+
+        if (source.hasSucc(target)) {
+            return false;
+        }
+        source.addSucc(target);
+        target.addPred(source);
+
+        _tails.remove(source);
+        _heads.remove(target);
+
+        return true;
     }
 
     @Override

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by hampus on 2016-10-05.
  */
-public class MyBFS implements BFS {
+public class MyBFS<Integer> implements BFS {
     @Override
     public List<Node> bfs(DirectedGraph graph, Node root) {
         return null;
