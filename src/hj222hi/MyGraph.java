@@ -24,7 +24,7 @@ public class MyGraph<E> implements DirectedGraph<E>{
     @Override
     public MyNode<E> addNodeFor(E item) {
         //Fell exception BRE
-        if(item == null){ throw new IndexOutOfBoundsException();}
+        if(item == null){ throw new RuntimeException();}
 
         if(!_graph.containsKey(item)){
             MyNode<E> node = new MyNode<E>(item);
@@ -40,7 +40,7 @@ public class MyGraph<E> implements DirectedGraph<E>{
         if (item != null && !_graph.containsKey(item)){
             return _graph.get(item);
         }
-        throw new IndexOutOfBoundsException();
+        throw new RuntimeException();
     }
 
     @Override
@@ -66,7 +66,7 @@ public class MyGraph<E> implements DirectedGraph<E>{
 
     @Override
     public boolean containsNodeFor(E item) {
-        if (item == null){throw new IndexOutOfBoundsException();}
+        if (item == null){throw new RuntimeException();}
         return _graph.containsKey(item);
 
     }
@@ -130,7 +130,7 @@ public class MyGraph<E> implements DirectedGraph<E>{
 
     @Override
     public void removeNodeFor(E item) {
-        if(item == null || _graph.containsKey(item)){throw new IndexOutOfBoundsException();}
+        if(item == null || _graph.containsKey(item)){throw new RuntimeException();}
 
         MyNode<E> toBeRemoved = new MyNode<E>(item);
 
@@ -148,7 +148,7 @@ public class MyGraph<E> implements DirectedGraph<E>{
 
     @Override
     public boolean containsEdgeFor(Object from, Object to) {
-        if(from == null || to == null){throw new IndexOutOfBoundsException();}
+        if(from == null || to == null){throw new RuntimeException();}
 
         if(_graph.containsKey(from) && _graph.containsKey(to)){
             if(_graph.get(from).hasSucc(_graph.get(to))){
@@ -161,7 +161,7 @@ public class MyGraph<E> implements DirectedGraph<E>{
 
     @Override
     public boolean removeEdgeFor(Object from, Object to) {
-        if(from == null || to == null){throw new IndexOutOfBoundsException(); }
+        if(from == null || to == null){throw new RuntimeException(); }
 
         if(containsEdgeFor(from, to)){
             MyNode<E> fromNode = _graph.get(from);
